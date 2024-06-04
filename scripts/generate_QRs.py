@@ -2,10 +2,10 @@ import pandas as pd
 import segno
 
 def generate_QR(data: tuple):
-    identifier = data
+    identifier = f"{data[0]} {data[1]} {str(data[2])}"
     qrcode = segno.make_qr(identifier)
     # Save the image
-    qr_name = identifier[0] + '_' + identifier[1] + '_' + str(identifier[2]) + '.png'
+    qr_name = identifier.split()[0] + '_' + identifier.split()[1] + '_' + str(identifier.split()[2]) + '.png'
     qrcode.save(f"./QRs/{qr_name}", scale = 6)
     
 def generate_from_campers(df: pd.DataFrame):

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/inputs/RIJAAL Camp June 2024 (Points System) - Sheet1.csv')
+df = pd.read_csv('../data/inputs/RIJAAL Camp June 2024 (Points System) - Sheet1.csv')
 new_df = pd.DataFrame(columns=['fname', 'lname', 'code'])
 
 # make fname and lname columns from the split of the 'NAME:' column
@@ -14,4 +14,4 @@ def generate_rand_code():
 # make code column with random 4-digit numbers
 new_df['code'] = new_df['fname'].apply(lambda x: generate_rand_code())
 
-new_df.to_csv('./data/outputs/campers.csv', index=False)
+new_df.to_csv('../data/outputs/campers.csv', index=False)
