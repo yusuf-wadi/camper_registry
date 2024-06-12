@@ -1,14 +1,14 @@
 fname,lname,code,points,present
-Omar,Abazid,6923,5,True
-Mohammad,Kharashqah,7609,0,False
-Jood,Chweki,1491,0,False
+Omar,Abazid,6923,0,True
+Mohammad,Kharashqah,7609,0,True
+Jood,Chweki,1491,0,True
 Jad,Alkoudsi,1538,0,False
 Abdulrahman,Alsayed,1812,0,False
-Majd,Eddin,6276,0,False
+Majd,Eddin,6276,0,True
 Yahya,Abdela,4452,0,False
 Sulaiman,Aiman,5084,0,False
 Burak,Elbasi,9795,0,False
-Emir,Elbasi,6964,0,False
+Emir,Elbasi,6964,0,True
 Saadullah,Khan,6682,0,False
 Fayyaz,Ali,6747,0,False
 Nadir,Musallet,5240,0,False
@@ -20,7 +20,7 @@ Waleen,Sadeed,7871,0,False
 Baraa,Seleim,9879,0,False
 Faris,Mustafa,3955,0,False
 Nourudeen,Seleim,5067,0,False
-Anas,Sheatt,9183,0,False
+Anas,Sheatt,9183,0,True
 Yusuf,Elahi,6424,0,False
 Musa,Elahi,6372,0,False
 Fouad,AlMasri,5873,0,False
@@ -35,6 +35,4 @@ Jamal,Marwan,8058,0,False
 Mustafa,Anas,7240,0,False
 Hamza,Alsad,9102,0,False
 Mohammad,Alrefae,7937,0,False
-Adam,Al-Rabbat,9881,5,True
-Jamal,Naffal,9882,0,False
-Isa,Naviwala,9884,0,True
+Adam,Al-Rabbat,9881,0,False

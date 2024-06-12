@@ -1,5 +1,5 @@
 fname,lname,code,points,present
-Omar,Abazid,6923,0,False
+Omar,Abazid,6923,0,True
 Mohammad,Kharashqah,7609,0,False
 Jood,Chweki,1491,0,True
 Jad,Alkoudsi,1538,0,False
@@ -17,10 +17,10 @@ Sami,Kisar,3972,0,False
 Momen,Moussa,7107,0,False
 Issam,Al,7363,0,False
 Waleen,Sadeed,7871,0,False
-Baraa,Seleim,9879,0,False
+Baraa,Seleim,9879,0,True
 Faris,Mustafa,3955,0,False
 Nourudeen,Seleim,5067,0,False
-Anas,Sheatt,9183,0,False
+Anas,Sheatt,9183,0,True
 Yusuf,Elahi,6424,0,False
 Musa,Elahi,6372,0,False
 Fouad,AlMasri,5873,0,False
